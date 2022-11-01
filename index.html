@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>mario game</title>
+</head>
+<body>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid brand">
+              <a class="navbar-brand" href="#">
+                <img src="./image/supermariologo.png" alt="" width="200" height="50">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#characters">Characters</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#saga">The Saga</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#getintouch">Get In Touch</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div style="text-align:center; color:white">
+            <video id="background-video" autoplay loop muted>
+                <source src="./video/videoplayback.mp4" type="video/mp4">
+                </video>
+                <h1 id="h1">super mario fan page</h1>
+        </div>
+          </div>
+    </div>
+    @media screen and (min-width: 500px){}
+<!-- --------------------------------------------------------------------------------------------- -->
+<div class="container-fluid bg-image" id="characters">
+    <div class="row card-container">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-4" style="padding-top:3rem">
+            <div class="card card-box">
+                <img src="image/mario1.png" class="card-img-top card-image" alt="..." style="width:15rem ;">
+                <div class="card-body">
+                  <h5 class="card-title">MARIO</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis praesentium porro sequi repellendus corrupti omnis delectus atque illo ducimus. Totam reprehenderit libero neque eum similique voluptatibus sint at fuga!</p>
+                </div>
+              </div>
+        </div>
+        <div class="col col-sm-12 col-lg-4" style="padding-top:5rem">
+            <div class="card card-box">
+                <img src="image/mario2.png" class="card-img-top card-image" alt="..." style="width:11.2rem ;">
+                <div class="card-body">
+                  <h5 class="card-title">LUIGI</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error soluta quaerat sapiente sit harum earum in voluptatibus dolorem doloremque delectus eius vitae distinctio repellat nulla, rerum sed et aspernatur? Beatae?</p>
+                </div>
+              </div>
+        </div>
+        <div class="col col-sm-12 col-lg-4" style="padding-top:5rem">
+            <div class="card card-box">
+                <img src="image/mario3.png" class="card-img-top card-image" alt="..." style="width:24.8rem ;">
+                <div class="card-body">
+                  <h5 class="card-title">BOWSER</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sed possimus expedita quam veritatis, deserunt eaque eligendi dicta debitis placeat suscipit itaque, consectetur laborum dolores eum! Enim laboriosam molestiae consequatur.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row content-container" style="padding-bottom:5rem" id="saga">
+            <div class="col-12 saga-container">
+                <h1 style="text-align:center;text-transform:capitalize;color:white">super mario story</h1>
+                <p class="lead" style="color:white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae deleniti debitis laboriosam quam eius at, rerum non impedit eligendi modi sequi voluptatem optio recusandae veniam eum quos hic, repellendus odit consequatur quisquam. Numquam cupiditate sunt porro eius libero. Est magnam in error rem sequi? Tenetur sit consequuntur sint modi, commodi non impedit sapiente in mollitia incidunt voluptatibus illum itaque vitae nam, sequi, nisi adipisci! Quo perferendis accusantium maiores placeat impedit. Quibusdam suscipit aliquam eius minima illum laboriosam sint voluptas minus consequuntur magni et cum autem quam vel vero nesciunt, odit eveniet dolore temporibus odio quo assumenda a. Quos, nihil asperiores.</p>
+            </div>
+    </div>
+</div>
+<!-- ----------------------------------------------------------------------------------------------- -->
+<div class="container gt-5 login-container" id="getintouch">
+    <div class="row signin-container">
+        <div class="col-6 col-sm-8 col-md-8 blur-container">
+            <h1 id="signin-heading">love mario?</h1>
+            <h6 id="signin-subheading">sign up for free</h6>
+            <form>
+                <div class="form-floating input-fields">
+                    <input type="text" class="form-control" id="floatingText" placeholder="Full Name">
+                    <label for="floatingText">Full Name</label>
+                  </div>
+                <div class="form-floating input-fields">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                    <label for="floatingInput">Email</label>
+                  </div>
+                <div class="row signin-btn">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+              </form>
+
+        </div>
+    </div>
+</div>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

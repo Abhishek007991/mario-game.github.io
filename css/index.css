@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    opacity: 0.8;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  #h1{
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 45vh;
+    text-transform: uppercase;
+  }
+
+  .card-container{
+    background-color: rgba(0,0,0,0.9);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.bg-image{
+    position: relative;
+    top: 30rem;
+    background-image: url(../image/background1.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:5rem;
+    padding-bottom:5rem;
+}
+.content-container{
+   margin-top: 10rem;
+}
+.login-container{
+    position: relative;
+    top:30rem;
+    margin:5rem auto;
+    padding:5rem 0;
+}
+.blur-container{
+  margin: 5rem auto;
+  padding:5rem auto;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter:blur(2rem);
+}
+input[type='text'],input[type='email']{
+  background:rgba(0,0,0,0.2);
+  border:none;
+}
+input[type='text']:focus,input[type='email']:focus{
+  background:rgba(0,0,0,0.2);
+  border:none;
+  color: #fff;
+}
+::placeholder{
+  color:gray;
+}
+::-webkit-scrollbar{
+  width:15px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  width: 100%;
+  background:url(../image/mushroom.png);
+  background-size:100% 50%;
+  background-repeat: no-repeat;
+}
+
+.brand a{
+  margin: 0;
+  padding: 0;
+}
+.signin-btn{
+  margin-bottom: 5rem;
+  padding: 0 1rem;
+}
+#signin-heading{
+  text-align: center;
+  text-transform: uppercase;
+  color:#fff;
+  margin-top: 5rem;
+}
+#signin-subheading{
+  color:purple;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.input-fields{
+  margin-bottom: 3rem;
+}
+.signin-container{
+  margin:5rem 0;
+  padding:5rem 0;
+}
+.card-box{
+  background:transparent;
+  border:none;
+  text-align: center;
+  color:white;
+}
+.card-image{
+  margin:auto;
+}
+.saga-container{
+  margin-top: 5rem;
+  margin: auto;
+  padding:5rem;
+  text-align:center;
+  width:75rem;
+  background-color: rgba(0,0,0,0.7);
+}
+
+@media screen and (min-width: 500px){
+  nav{
+    width: 100vw;
+  }
+  .saga-container{
+    width: 80%;
+  }
+}
+@media screen and (min-width: 786px){}
+@media screen and (min-width: 900px){}
+@media screen and (min-width: 1200px){}
